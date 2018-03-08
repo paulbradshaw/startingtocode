@@ -1,4 +1,4 @@
-import urllib, json
+import urllib, json, scraperwiki
 
 url = "https://data.police.uk/api/stops-force?force=west-midlands"
 response = urllib.urlopen(url)
